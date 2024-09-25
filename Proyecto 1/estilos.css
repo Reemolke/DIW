@@ -3,12 +3,14 @@ body {
     padding: 0;
     font-family: Georgia, Times, serif;
     font-size: 16px;
+    background-color: palevioletred;
 }
 
 .container {
     width: 90%;
     max-width: 970px;
     margin: 0px auto; /*centramos el contenido horizontalmente*/
+    background-color: white;
 }
 .cabecera{
     color: #A0A14E
@@ -17,4 +19,18 @@ body {
     color: #14748B;
     font-style: italic;
     
+}
+abbr{
+    text-decoration: underline;
+}
+cite{
+    color: #A0A14E;
+    text-transform: capitalize;
+}
+.juegosExternos{
+    font-style: normal
+}
+.estudio{
+    color:black;
+    font-weight: bold;
 }
