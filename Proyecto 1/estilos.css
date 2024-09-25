@@ -10,3 +10,11 @@ body {
     max-width: 970px;
     margin: 0px auto; /*centramos el contenido horizontalmente*/
 }
+.cabecera{
+    color: #A0A14E
+}
+.asunto{
+    color: #14748B;
+    font-style: italic;
+    
+}
