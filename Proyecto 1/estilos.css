@@ -51,7 +51,7 @@ hr{
     border: 1px;
     border-top: 3px solid #a5cbd2;
 }
-p{
+.primeraLinea{
     text-indent: 40px;
 }
 q{
@@ -85,4 +85,5 @@ a{
 .autor{
     font-weight: normal;
 }
+
 
