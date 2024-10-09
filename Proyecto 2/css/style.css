@@ -1,6 +1,7 @@
 body{
     background-color: #F7E990;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 header{
     display: flex;
@@ -61,22 +62,25 @@ header{
 #fatherArticle{
     background-color: #FFFFFF;
     height:100%;
-    width:60%;
+    width:100%;
     margin:auto;
     padding: 0.5%;
+    max-width: 970px;
 }
 .articleTitle{
-    height:18%;
+    height:8%;
     width:95%;
     margin:auto;
     background-color:#E1D1C1;
     justify-content: center;
     text-align: left;
     align-content: center;
+    align-items: center;
+    
     margin-top: 1.5%;
     padding-left: 2%;
     font-size: 1vw;
-    
+    padding-bottom: 3%;
 }
 #parrafoAutor{
     margin-left: 65px;
@@ -100,6 +104,32 @@ article{
     width: 100%;
     background-color: white;
 }
+#title{
+    padding: 0%;
+}
 h1{
-    padding: 20px;
+    padding-left: 20px;
+}
+.contenedor{
+    width: 99%;
+    height: 100%;
+    max-width: 970px;
+    margin: 0px auto; /*centramos el contenido horizontalmente*/
+    background-color: white;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+
+    line-height: 1.75;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: bolder;
+}
+ul{
+    
+    
+    list-style-type: none;
+    border-left: 2px solid #4F2800;
+    
+    margin-left: 100px;
+    width:400px;
 }
