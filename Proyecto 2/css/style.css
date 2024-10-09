@@ -146,9 +146,11 @@ hr{
     
 }
 #textBox{
-    border-left: 3px solid gray;
-    border-right: 3px solid gray;
+    border-left: 4px solid rgba(100, 97, 97, 0.384);
+    
+    border-right: 4px solid rgba(100, 97, 97, 0.384);
     width:600px;
     margin-left: 100px;
     padding: 20px;
+    
 }
