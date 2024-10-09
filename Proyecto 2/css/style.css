@@ -106,9 +106,13 @@ article{
 }
 #title{
     padding: 0%;
+    padding-top: 2%
+
 }
 h1{
     padding-left: 20px;
+    margin:auto;
+    color: #663800;
 }
 .contenedor{
     width: 99%;
@@ -128,8 +132,16 @@ ul{
     
     
     list-style-type: none;
-    border-left: 2px solid #4F2800;
+    border-left: 3px solid #6A4915;
     
     margin-left: 100px;
     width:400px;
+}
+hr{
+    border:none;
+    
+    border-top: 3px dashed #663800;  
+    margin:auto;
+    margin-left: 20px;
+    
 }
