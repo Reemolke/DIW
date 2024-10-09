@@ -133,7 +133,7 @@ ul{
     
     list-style-type: none;
     border-left: 3px solid #6A4915;
-    
+    font-size: 14px;
     margin-left: 100px;
     width:400px;
 }
