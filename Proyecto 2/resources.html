@@ -1,4 +1,4 @@
-<html></html>
+<html>
   <head>
     <link rel="stylesheet" href="css/style.css">
     
@@ -6,18 +6,44 @@
   <body>
     <header>
         
-        <button id="nav-left" class="nav">Artículo</button>
-        <button class="nav">Técnicas</button>
-        <button id="nav-right" class="nav">Recursos</button>
+        <a href="article.html"><button id="nav-left" class="nav">ARTICULO</button></a>
+        <a href="techniques.html"><button class="nav">TÉCNICAS</button></a>
+        <a href="resources.html"><button id="nav-right" class="nav">RECURSOS</button></a>
     </header>
-    <article>
-        <div class="articleTitle">
-            <h1>La importancia estratégica del diseño centrado en las personas</h1>
-            <h5>Judith Membrines</h5>
-        </div>
-    </article>
-  </body>
-  <footer>
+    <div id="contenedor">
+      <div class="fatherArticle2">
+        <h1 class="resourcesTitle">Recursos sobre usabilidad y experiencia del usuario</h1>
+        <ol class="resourcesOL">
+          <li>Revistas
+            <ol class="resourcesRevistas">
+              <li>En inglés
+                <ul class="resUL">
+                  <li>Norman Nielsen Group</li>
+                  <li>UXMatters</li>
+                  <li>UX Planet</li>
+                </ul>
+              </li>
+              <li>En español
+                <ul class="resUL">
+                  <li>No solo usabilidad</li>
+                  <li>ARIA</li>
+                  <li>Usable y accesible</li></ul>
+              </li>
+            </ol>
+          </li>
+          <li>Libros
+            <ul class="resourcesLibros">
+              <li>10 principios de usabilidad para el Diseño de Interfaz de Usuario</li>
+              <li>Las Leyes de la Simplicidad</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+      <footer class="resFooter">
+        <p>Fuente: Blog Crecemos Contigo</p>
+      </footer>
+    </div>
     
-  </footer>
+  </body>
+
 </html>
