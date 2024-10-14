@@ -61,24 +61,24 @@ header{
 }
 .fatherArticle{
     background-color: #FFFFFF;
-    height:218%;
-    width:100%;
+    height:218vh;
+    width:100vw;
     margin:auto;
     padding: 0.5%;
     max-width: 970px;
 }
 .fatherArticle1{
     background-color: #FFFFFF;
-    height:140%;
-    width:100%;
+    height:140vh;
+    width:100vw;
     margin:auto;
     padding: 0.5%;
     max-width: 1080px;
 }
 .fatherArticle2{
     background-color: #FFFFFF;
-    height:70%;
-    width:100%;
+    height:75vh;
+    width:100vw;
     margin:auto;
     padding: 0.5%;
     max-width: 970px;
@@ -178,10 +178,10 @@ hr{
     font-size: 0.75vw;
     text-indent: 0;
 }
-q{
+.articleTextboxQ{
     quotes: "“" "”" "‘" "’";
 }
-q::before {
+.articleTextboxQ::before {
     content: open-quote;
     font-size: 3em; /* Tamaño de las comillas */
     color: black; /* Color de las comillas */
@@ -194,7 +194,7 @@ q::before {
     font-style: italic;
 }
 
-q::after {
+.articleTextboxQ::after {
     content: close-quote;
     font-size: 3em;
     color: black;
@@ -207,13 +207,17 @@ q::after {
     
 }
 a{
-    color: #663800;
+    
     text-decoration: none;
     width: 100%;
     height: 100%;
     margin:auto;
     margin-left: 3px;
     margin-right: 3px;
+}
+.articleLink{
+    text-decoration: underline overline;
+    color: blue;
 }
 #letter{
     margin: auto;
@@ -230,6 +234,10 @@ a{
     margin-left: 0;
     padding-left: 40px;
     text-align: left;
+}
+.articleOL a{
+    color: #663800;
+    font-weight: 700;
 }
 
 h2{
@@ -300,6 +308,12 @@ h3{
 .techniquesFooter{
     text-align: center;
 }
+
+.techniquesFooter a{
+    text-decoration: none;
+    color: #663800;
+    font-style: italic;
+}
 .resourcesTitle{
     font-size: 1.25vw;
     color: black;
@@ -315,9 +329,14 @@ h3{
 .resourcesOL{
     font-size: 0.8vw;
     padding-left: 100px;
+    
 }
 .resourcesOL li{
     padding-top: 10px;
+    
+}
+.resourcesOL a{
+    color:#663800;
 }
 .resourcesRevistas{
     border: 2px solid yellow;
@@ -325,7 +344,16 @@ h3{
     padding-top: 50px;
     padding-bottom:50px;
     margin-right: 200px;
+    
+    font-size: 0.8vw;
 }
+.resourcesRevistas ul li{
+
+    padding-left: 10px;
+    
+    
+}
+
 .resourcesLibros{
     border: 2px solid yellow;
     padding-top: 50px;
@@ -333,8 +361,31 @@ h3{
     margin-right: 200px;
     margin-top:50px;
     list-style:square;
+    
+    font-size: 0.8vw;
+}
+.resourcesLibros li{
+    padding-left: 10px;
 }
 .resFooter{
     text-align: center;
 }
-
+.resFooter a{
+    color:#663800;
+    font-style: italic;
+    font-size:0.8vw;
+}
+em{
+    color: #663800;
+    font-style: normal;
+    font-weight: 700;
+}
+.techniquesEM{
+    color:black;
+}
+u{
+    text-decoration: underline dotted;
+}
+.fatherArticle q{
+    font-style: italic;
+}
