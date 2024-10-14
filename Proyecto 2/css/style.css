@@ -7,7 +7,7 @@ header{
     display: flex;
     flex-direction: row;
     width: 40%;
-    height: 10%;
+    height: 24%;
     background-color: #F7E990;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,9 @@ header{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 80%;
+    height: 100%;
+    min-height: 120px;
+    min-width: 120px;
     background-color: red;
     justify-content: center;
     align-items: center;
@@ -40,7 +42,7 @@ header{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1vw;
+    font-size: 100%;
     border-style: solid;
     border-width: 1px;
     border-image: radial-gradient(#C7C7C7, white) 0.5;
@@ -49,36 +51,36 @@ header{
 }
 #nav-left{
     
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
     background-color: #E3E3E3;
 }
 #nav-right{
     
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
     background-color: #E3E3E3;
 }
 .fatherArticle{
     background-color: #FFFFFF;
-    height:218vh;
-    width:100vw;
+    height:218%;
+    width:100%;
     margin:auto;
     padding: 0.5%;
     max-width: 970px;
 }
 .fatherArticle1{
     background-color: #FFFFFF;
-    height:140vh;
-    width:100vw;
+    height:140%;
+    width:100%;
     margin:auto;
     padding: 0.5%;
     max-width: 1080px;
 }
 .fatherArticle2{
     background-color: #FFFFFF;
-    height:75vh;
-    width:100vw;
+    height:75%;
+    width:100%;
     margin:auto;
     padding: 0.5%;
     max-width: 970px;
@@ -96,7 +98,7 @@ header{
     padding-top:1%;
     margin-top: 1.5%;
     padding-left: 2%;
-    font-size: 0.75vw;
+    font-size: 75%;
     padding-bottom: 3%;
 }
 #parrafoAutor{
@@ -107,12 +109,12 @@ header{
     margin-top: 40px;
     margin-right: 55px;
     text-indent: 0%;
-    font-size: 0.65vw;
+    font-size: 65%;
 }
 p{
     text-indent: 4%;
     line-height: 150%;
-    font-size: 0.725vw;
+    font-size: 72.5%;
     margin-left: 20px;
     margin-right: 10px;
 }
@@ -133,8 +135,9 @@ h1{
     padding-top: 30px;
 }
 .contenedor{
-    width: 8vw;
+    width: 80%;
     height: 100%;
+    
     max-width: 970px;
     
     margin: 0px auto; /*centramos el contenido horizontalmente*/
@@ -142,7 +145,7 @@ h1{
     padding-top: 1%;
     padding-right: 2%;
     padding-left: 2%;
-
+    padding-bottom: 1%;
     line-height: 1.75;
     font-family:Arial, Helvetica, sans-serif;
     font-style: bolder;
@@ -152,7 +155,7 @@ h1{
     
     list-style-type: none;
     border-left: 3px solid #6A4915;
-    font-size: 0.75vw;
+    font-size: 75%;
     margin-left: 10%;
     width:400px;
     margin-top: 3%;
@@ -175,7 +178,7 @@ hr{
     margin-left: 10%;
     
     padding: 20px;
-    font-size: 0.75vw;
+    font-size: 75%;
     text-indent: 0;
 }
 .articleTextboxQ{
@@ -282,7 +285,7 @@ h3{
     
     border: none;
     list-style: symbols();
-    font-size: 0.75vw;
+    font-size: 75%;
     margin-left: 10%;
     width:700px;
     margin-top: 3%;
@@ -300,7 +303,7 @@ h3{
 .techniquesP{
     text-indent: 4%;
     line-height: 150%;
-    font-size: 0.725vw;
+    font-size: 72.5%;
     margin-left: 20px;
     margin-right: 40px;
     padding-left: 75px;
@@ -315,7 +318,7 @@ h3{
     font-style: italic;
 }
 .resourcesTitle{
-    font-size: 1.25vw;
+    font-size: 125%;
     color: black;
 }
 .checkIcon{
@@ -327,7 +330,7 @@ h3{
     padding-left: 20px;
 }
 .resourcesOL{
-    font-size: 0.8vw;
+    font-size: 80%;
     padding-left: 100px;
     
 }
@@ -339,13 +342,13 @@ h3{
     color:#663800;
 }
 .resourcesRevistas{
-    border: 2px solid yellow;
+    border: 2px solid #F5EA8E;
     margin:auto;
     padding-top: 50px;
     padding-bottom:50px;
     margin-right: 200px;
     
-    font-size: 0.8vw;
+    font-size: 80%;
 }
 .resourcesRevistas ul li{
 
@@ -355,17 +358,18 @@ h3{
 }
 
 .resourcesLibros{
-    border: 2px solid yellow;
+    border: 2px solid #F5EA8E;
     padding-top: 50px;
     padding-bottom:50px;
     margin-right: 200px;
     margin-top:50px;
     list-style:square;
     
-    font-size: 0.8vw;
+    font-size: 80%;
 }
 .resourcesLibros li{
     padding-left: 10px;
+    
 }
 .resFooter{
     text-align: center;
@@ -373,7 +377,7 @@ h3{
 .resFooter a{
     color:#663800;
     font-style: italic;
-    font-size:0.8vw;
+    font-size:80%;
 }
 em{
     color: #663800;
