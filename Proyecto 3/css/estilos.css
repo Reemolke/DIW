@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo{
+
+    margin-left: 25%;
+    width:4%;
+    height: 4%;
+    justify-content: space-around;
+}
+nav{
+    background-color: white;
+    display:flex;
+    justify-content: right;
+    margin-right: 20%;
+    text-transform:uppercase;
+    padding-right: 10%;
+    padding-left: 1%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding:0;
+
+    list-style: none;
+
+
+}
+
+nav ul li a{
+    color:darkgreen;
+    text-decoration: none;
+    font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul li {
+    padding-inline: 20%;
+}
+
+nav ul li a.selected{
+    color:#0fFF33;
+    border-bottom:#0fFF33 4px solid;
+
+}
+nav ul li a:hover {
+    color:white;
+    background-color: darkgreen;
+    
+}
+header {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: darkgreen 4px solid;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+.container div{
+    font-family: 'Roboto', sans-serif;
+}
+.healthyFood{
+
+    width:400px;
+    height: 400px;
+}
+.indexDiv2 p{
+    margin-bottom: 50%;
+    width: 75%;
+    text-align: left;
+
+}
+.indexDiv2{
+    width: 940px;
+    height: 500px;
+    padding-left: 10%;
+    margin-top:5%;
+    margin-left: 15%;
+
+}
+.indexDiv{
+    width: 940px;
+    height: 500px;
+    margin-top:5%;
+    margin-right: 20%;
+    margin-left: -7.5%;
+
+}
+
+.indexDiv h1{
+    font-size: 150%;
+}
+.indexDiv h2{
+    font-size: 110%;
+    
+}
+footer {
+    
+}
