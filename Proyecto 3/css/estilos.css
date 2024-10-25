@@ -7,8 +7,8 @@
 .logo{
 
     margin-left: 25%;
-    width:4%;
-    height: 4%;
+    width:3%;
+    height: 3%;
     justify-content: space-around;
 }
 nav{
@@ -17,17 +17,13 @@ nav{
     justify-content: right;
     margin-right: 20%;
     text-transform:uppercase;
-    padding-right: 10%;
-    padding-left: 1%;
+
 }
 nav ul{
     display: flex;
     align-items: center;
-    margin:0;
-    padding:0;
-
     list-style: none;
-
+    
 
 }
 
@@ -35,16 +31,16 @@ nav ul li a{
     color:darkgreen;
     text-decoration: none;
     font-weight: 550;
+    padding: 25px 25px 22px 25px;
     font-family: 'Roboto', sans-serif;
+    
 }
 nav ul li {
-    padding-inline: 20%;
 }
 
 nav ul li a.selected{
     color:#0fFF33;
     border-bottom:#0fFF33 4px solid;
-
 }
 nav ul li a:hover {
     color:white;
