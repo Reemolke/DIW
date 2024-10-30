@@ -149,23 +149,41 @@ footer p:nth-child(even){
 .containerProducts table{
     width: 43%;
     text-align: center;
-    border:1px solid #006800;
+    border:2px solid black;
+    
+    
     border-collapse: collapse;
     
 
+}
+.containerProducts table td{
+    padding: 0.5%;
+    background-color: white;
+    border:1px solid lightgray;
+    border-top: none;
+
+}
+.containerProducts tr > td:last-of-type {
+    /* styling here */
+    border-right: none;
+}
+.containerProducts table .ultima td{
+    border-bottom: none;
+}
+.containerProducts table #foot{
+    font-weight: 100;
+    border: 2px solid black;
+    border-top: 2px solid black;
 }
 .containerProducts table th{
     background-color: #00D94A;
     border:2px solid black;
     padding: 0.5%;
+    border-top: 2px solid black;
 }
-.containerProducts table td{
-    padding: 0.5%;
-    background-color: white;
-    border:1px solid #006800;
-    font-weight: 600;
-}
+
 .containerProducts .types {
+    font-weight: 600;
     background-color: #00FA57; /* Set a different background color for .types elements */
 }
 .containerProducts #foot{
