@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <title>Compra</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
-        <img src="img/logo.jpg" class="logo">
+        <img src="img/logo.jpg" alt="Logo empresa" class="logo">
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -15,7 +15,105 @@
             </ul>
         </nav>
     </header>
-    <body></body>
-    <footer></footer>
+
+        <div class="containerBuying">
+            <h1>Realiza tu pedido</h1>
+            <p>Rellena el siguiente formulario para realizar tu pedido</p>
+            <form action="#" method="post">
+        
+                <!-- Datos Personales -->
+            <div class="personalData">
+                <h3>Datos Personales</h3>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required><br><br>
+        
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" required><br><br>
+        
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" required><br><br>
+        
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" required><br><br>
+        
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" required><br><br>
+        
+                <label for="fecha">Fecha de pedido:</label>
+                <input type="date" id="fecha" required><br><br>
+            </div>
+                
+            <div class="Address">
+                <h3>Dirección</h3>  
+                <label for="calle">Calle y número:</label>
+                <input type="text" id="calle" required><br><br>
+        
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" required><br><br>
+        
+                <label for="codigo_postal">Código Postal:</label>
+                <input type="text" id="codigo_postal" required><br><br>
+        
+                <label for="provincia">Provincia:</label>
+                <input type="text" id="provincia" required><br><br>
+        
+                <label for="pais">País:</label>
+                <input type="text" id="pais" required><br><br>
+            </div>
+                
+            <div class="payoutData"><h3>Datos de Pago y Entrega</h3>
+        
+                <label for="metodo_pago">Método de pago:</label>
+                <select id="metodo_pago" required>
+                    <option value="">Seleccione...</option>
+                    <option value="transferencia">Transferencia</option>
+                    <option value="tarjeta_credito">Tarjeta de crédito</option>
+                    <option value="paypal">Paypal</option>
+                </select><br><br>
+        
+                <label for="dia_entrega">Día de entrega preferido:</label>
+                <select id="dia_entrega" required>
+                    <option value="">Seleccione...</option>
+                    <optgroup label="Laborable">
+                        <option value="lunes">Lunes</option>
+                        <option value="martes">Martes</option>
+                        <option value="miércoles">Miércoles</option>
+                        <option value="jueves">Jueves</option>
+                        <option value="viernes">Viernes</option>
+                    </optgroup>
+                    <optgroup label="Fin de semana">
+                        <option value="sábado">Sábado</option>
+                        <option value="domingo">Domingo</option>
+                    </optgroup>
+                </select><br><br>
+        
+                <label for="franja_horaria">Franja horaria preferida:</label>
+                <select id="franja_horaria" required>
+                    <option value="">Seleccione...</option>
+                    <optgroup label="Mañana">
+                        <option value="9-12">9-12</option>
+                        <option value="12-14">12-14</option>
+                    </optgroup>
+                    <optgroup label="Tarde">
+                        <option value="16-18">16-18</option>
+                        <option value="18-20">18-20</option>
+                    </optgroup>
+                </select><br><br>
+        
+                <label>
+                    <input type="checkbox" id="privacidad" required>
+                    Acepto la política de privacidad y las condiciones de uso
+                </label><br><br>
+        
+                <button type="submit">Enviar</button></div>
+                <!-- Datos de Pago y Entrega -->
+                
+        
+            </form>
+        </div>
+    <footer>
+        <p>PEC3 Lenguajes y estándares web, 2020. <b>Nombre autor</b></p>
+        <p>Créditos:<b> Vector de Logo creado por freepik - <a>www.freepik.es</a></b></p>
+    </footer>
 </body>
 </html>
