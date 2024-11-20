@@ -2,11 +2,45 @@
     width:1100px;
 
 }
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+header{
+    
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    border-bottom: white 1px solid;
+    background-color: black;
+    color: white;
+
+}
+header div{
+    display:flex;
+    margin-left: 10%;
+}
+header p{
+    padding-top: 10%;
+}
+header img{
+    height: 60px;
+    width: auto;
+    margin-right: 20px;
+    padding-bottom: 8%;
+}
 header nav{
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin-right: 15%;
 }
 header nav li{
-    padding: 2% 2% 0% 2%;
+    padding: 9% 10% 2% 10%;
+    background-color: black;
+    text-align: left;
+    white-space: nowrap;
+    color:white;
+    
 }
