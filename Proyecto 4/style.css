@@ -2,24 +2,36 @@
     width:1100px;
 
 }
+
 body{
     height: 100%;
     width: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto',sans-serif;
 }
 header{
     
     width: 100%;
     display:flex;
     justify-content:space-around;
+    flex-direction: column;
     border-bottom: white 1px solid;
     background-color: black;
     color: white;
-
+    
 }
 header div{
     display:flex;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+header a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+
 }
 header p{
     padding-top: 10%;
@@ -29,18 +41,388 @@ header img{
     width: auto;
     margin-right: 20px;
     padding-bottom: 8%;
+    
 }
 header nav{
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-right: 15%;
+
 }
 header nav li{
-    padding: 9% 10% 2% 10%;
+    padding: 9% 10% 7% 10%;
     background-color: black;
     text-align: left;
     white-space: nowrap;
     color:white;
     
+}
+header nav a:hover{
+    background-color:#E2CA3C;
+    color:black;
+    border-radius: 5px;
+    
+}
+#indexTitleDiv{
+    background-image: url('imagenes_practica_final/cabecera1.jpg');
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 600px;
+    border:0px;
+    align-items: center;
+    margin: auto;
+}
+
+#indexTitleDiv h1{
+    margin-top: -100px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+#indexTitleDiv h2{
+    
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+#indexTitleDiv img{
+    width: 200px;
+    height: 200px;
+    padding-top: 80px;
+}
+#indexIcons{
+    display: flex;
+}
+
+#icon1:hover{
+    content: url('imagenes_practica_final/icons/split-image-13.png');
+    width: 70px;
+    height: 70px;
+    
+}
+#icon2:hover{
+    content: url('imagenes_practica_final/icons/split-image-10.png');
+    width: 70px;
+    height: 70px;
+    
+}
+#icon3:hover{
+    content: url('imagenes_practica_final/icons/split-image-12.png');
+    width: 70px;
+    height: 70px;
+    
+}
+#icon4:hover{
+    content: url('imagenes_practica_final/icons/split-image-15.png');
+    width: 70px;
+    height: 70px;
+    
+}
+#icon5:hover{
+    content: url('imagenes_practica_final/icons/split-image-16.png');
+    width: 70px;
+    height: 70px;
+    
+}
+#icon6:hover{
+    content: url('imagenes_practica_final/icons/split-image-17.png');
+    width: 70px;
+    height: 70px;
+    
+}
+#indexDiv{
+    width: 1100px;
+    height: auto;
+    
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#indexDiv a{
+    color:rgb(250, 225, 4);
+}
+#indexDiv div{
+    justify-content: space-between;
+}
+
+.rowCard{
+    align-items: center;
+    display: flex; flex-direction: column;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    display: flex; flex-direction: column;
+    background-color: #F2F2F2;
+    
+
+    box-shadow: 2px 2px 4px #D1D1D1,-2px -2px 4px #D1D1D1;
+}
+.card img:hover{
+    transform: scale(1.1);
+    
+}
+.card a{
+    color:rgb(250, 225, 4);
+    font-style: italic;
+}
+.miPortfolio{
+    justify-content: left;
+    margin: 1%;
+    
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #3A3A3A;
+}
+footer div{
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+
+}
+footer ul{
+    list-style: none;
+    font-style: italic;
+    color:rgb(250, 225, 4);
+    text-decoration: underline;
+}
+footer ul:nth-child(odd){
+    text-align: right;
+}
+footer p{
+    text-align: center;
+    color: #556166;
+}
+#designTitleDiv{
+    background-image: url('imagenes_practica_final/cabecera1.jpg');
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 250px;
+    border:0px;
+    
+    margin: auto;
+}
+
+#designTitleDiv h1{
+    padding-top: 25px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    width: 700px;
+    text-align: center;
+    
+}
+#designTitleDiv h2{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+#designTitleDiv #icons{
+    margin-top: -70px;
+    padding-left: 70%;
+}
+#designTitleDiv .logoPng{
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+#designDiv{
+    width: 1100px;
+    height: auto;
+    
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#designDiv a{
+    color:rgb(250, 225, 4);
+}
+#designDiv button{
+    background-color: #E8C841;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#designDiv button:hover{
+    background-color: white;
+    border: 2px solid #E8C841;
+}
+#designDiv table{
+    margin-top:  20px;
+    border-collapse: collapse;
+    margin-bottom: 70px;
+}
+#designDiv table caption{
+    font-size: 36px;
+    color: darkgrey;
+    font-style: italic;
+}
+#designDiv table img{
+    height: 100px;
+}
+#designDiv table tr{
+    
+    border-bottom: 1px solid black;
+}
+#designDiv table td{
+    padding: 10px;
+    
+}
+#designDiv table th{
+    background-color: #E8C841;
+    padding: 15px;
+}
+#designDiv pre{
+    border-left : 4px solid #83A100;
+    padding: 30px;
+}
+#designDiv pre h3{
+    text-decoration: underline;
+}
+blockquote {
+    font-style: italic;
+    color: #777;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-right: 4px solid #E2CA3C;
+    text-align: right;
+    padding-right: 50px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    position:relative;
+}
+blockquote:after {
+    content: "❞";
+    font-size: 4em;
+    color: #E2CA3C;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+blockquote:before {
+    content: "❝";
+    font-size: 4em;
+    color: #E2CA3C;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+#designDiv #citas{
+    list-style: none;
+    
+}
+#designDiv #citas li:before{
+    content: url('imagenes_practica_final/libro.png');
+    padding-right: 20px;
+    
+    
+    
+}
+#contactDiv{
+    width: 700px;
+    height: auto;
+    
+    margin: auto;
+    text-align: center;
+    padding: 60px;
+    padding-bottom: 160px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #E8C841;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px;
+    
+}
+#contactDiv h3{
+    color:white;
+    font-size: 36px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+fieldset legend{
+    padding-left: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+fieldset div{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-around;
+    
+}
+fieldset label{
+    height: 20px;
+    padding: 20px;
+    margin-right: -100px;
+}
+fieldset input{
+    padding: 20px;
+    height: 50px;
+    color: #E8C841;
+    margin-left: -100px;
+}
+#contactDiv input[type="submit"]{
+    margin:auto;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 20px;
+}
+#contactDiv input[type="submit"]:hover{
+    background-color: #83A100;
+    color:black;
+    font-weight: 800;
+}
+#contactDiv input[type="reset"]:hover{
+    background-color: #F26A4A;
+    color:black;
+    font-weight: 800;
+}
+#contactDiv input[type="reset"]{
+    margin:auto;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 20px;
+}
+fieldset select{
+    padding: 20px;
+    height: 70px;
+    color: #E8C841;
+    margin-left: -100px;
+    
+}
+fieldset input::placeholder{
+    color: #E8C841;
+}
+.checkbox{
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    
+}
+.checkbox label{
+    padding-bottom: 20px;
+}
+.checkbox input:checked{
+    content: "✔"; /* Símbolo personalizado */
+    font-size: 32px;
+    color: white;
+}
+#mensaje{
+    height: 400px;
+    width: 300px;
 }
